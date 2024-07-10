@@ -36,5 +36,22 @@ Luego mando a traer esa variable global</br>
 Y muestro esa variable global</br>
 
 
+## Usando esa variable global del correo para diferenciar los roles de usuario</br>
+Pasa que tengo estas 4 pantallas (Home, dashboard, notifications, y configuración)</br>
+![image](https://github.com/exequiel-miranda/CompanionObject-y-NivelesUsuario/assets/94820436/370f682d-34f4-489a-9c36-c4f57c4c9911)</br>
+
+Quiero que el administrador tenga acceso a todas las pantallas, pero que el cliente no tenga acceso a configuración, por que el cliente no podrá configurar nada</br>
+Eso lo hago desde la MainActivity (o desde la activity que contiene el menú)</br>
+
+![image](https://github.com/exequiel-miranda/CompanionObject-y-NivelesUsuario/assets/94820436/11464b36-0daa-4021-b290-ec3dc0ba7c20)</br>
+
+Lo hacemos con este código:</br>
+![image](https://github.com/exequiel-miranda/CompanionObject-y-NivelesUsuario/assets/94820436/3bc2724d-4f06-4950-b9ff-97106daca4bf)</br>
+Mostramos u ocultamos una pantalla dependiendo si el correo ingresado es de administrador o no</br>
+</br>
+Ahora, este es solo un ejemplo, pueden extenderlo a la cantidad de pantallas que ustedes deseen</br>
+o no solo comparar un correo que nosotros escribamos, puede ser dependiendo del rol etc, etc, etc,</br>
+La cuestión es que esta es la base para darle acceso a ciertas pantallas a un usuario</br>
+
 
 
