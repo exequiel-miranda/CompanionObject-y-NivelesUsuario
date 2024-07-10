@@ -23,6 +23,18 @@ Vean como el valor que tendrá esta variable global es lo que el usuario escribi
 
 
 
+## ¿Como accedo a variables del companion object que declaré en el login?</br>
+
+Como ahora el correo es una variable global, quiero acceder a ella y mostrar su valor en el fragment de Notificaciones y colocarlo en un TextView</br>
+![image](https://github.com/exequiel-miranda/CompanionObject-y-NivelesUsuario/assets/94820436/e86abf77-fd55-4cb4-ad1b-5efe8733c319)
+
+</br>
+Noten como luego de mandar a traer el correo que es global, llamo al textView que tenia en la pantalla y le asigno como valor el correo que traje para que lo muestre
+Por ejemplo, si el usuario escribe "pepito@gmail.com" en el correo</br>
+Ese correo se guarda de manera global</br>
+Luego mando a traer esa variable global</br>
+Y muestro esa variable global</br>
+
 
 
 
